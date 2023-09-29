@@ -1,6 +1,3 @@
-### FLEX BOX PRICING TABLE PROJECT ###
-
-
 <!DOCTYPE html>
 <html>
 
@@ -11,13 +8,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Sono', sans-serif;
+      font-family:'Sono', sans-serif;
+      background-color:wheat;
+     
     }
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       .pricing-container {
         flex-direction: column;
+       
       }
     }
 
@@ -27,7 +27,8 @@
       
       justify-content:space-around;
       align-items:center;
-      height: 100vh;
+      height: 80vh;
+      
 
       
     }
@@ -35,18 +36,41 @@
     .plan-price{
       font-weight: 600px;
       font-size:45px;
+      color:silver
 
     }
     
     .pricing-plan{
-      background-color:#f2f2f2;
+      background-color:black;
     }
     
+    .plan-button{
+      background-color:goldenrod;
+      color: black;
+      border-radius: 20%;
+      font-size: 20px;
+    }
+    .plan-features{
+      color:lightcyan
+    }
 
+    h1{
+      color:darkolivegreen;
+      font-size: 70px;
+      
+    }
+
+    .plan-title{
+      color:goldenrod;
+      text-align: center;
+      font-size:20px
+    }
+    
   </style>
 </head>
 
 <body>
+  <h1><marquee>Worthy Plans With Great Benefits  ****    Brilliant Plans With Great Benefits  ****   Brilliant Plans With Great Benefits  ****</marquee></h1>
   <div class="pricing-container">
     <div class="pricing-plan">
       <div class="plan-title">Basic</div>
