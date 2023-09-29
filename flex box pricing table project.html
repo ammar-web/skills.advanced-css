@@ -1,6 +1,3 @@
-### FLEXBOX PRICING TABLE PROJECT ###
-
-
 <!DOCTYPE html>
 <html>
 
@@ -16,7 +13,7 @@
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
-      .pricing-container{
+      .pricing-container {
         flex-direction: column;
       }
     }
@@ -24,16 +21,23 @@
     .pricing-container {
      
       display:flex;
-      background-color:#f2f2f2;
-      justify-content:space-around
+      
+      justify-content:space-around;
+      align-items:center;
+      height: 100vh;
+
+      
     }
 
     .plan-price{
       font-weight: 600px;
       font-size:45px;
-      
+
     }
     
+    .pricing-plan{
+      background-color:#f2f2f2;
+    }
     
 
   </style>
