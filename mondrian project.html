@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    
+  .container{
+    height: 748px;
+    width: 748px;
+    display:grid;
+    background-color:black;
+    grid-template-rows: 2fr,1fr ;
+    grid-template-columns:1fr,1.25fr ;
+
+  }
+  
+  .one{
+    background-color:red;
+    height:414px;
+    width:320px;
+    margin-bottom: 9px;
+    margin-right: 9px;
+  }
+
+  .two{
+    height:414px;
+    width:428px;
+    background-color:#F0F1EC;
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+  }
+
+  .three{
+    height:304px;
+    width:320px;
+    background-color: #F0F1EC;
+  }
+
+  .four{
+    height:304px;
+    width:351px;
+    background-color: #F0F1EC;
+  }
+
+  .five{
+    
+    background-color: #004592;
+    height:130px;
+    width:50px;
+    grid-area: 3.5 / 2 / 4 / 3;
+    grid-auto-rows:130px ;
+    grid-auto-columns: 50px;
+    
+    
+  }
+
+  .six{
+    background-color: #F0F1EC;
+    grid-auto-rows:347px ;
+    grid-auto-columns:20px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+    
+
+    
+
+  </div>
+</body>
+
+</html>
